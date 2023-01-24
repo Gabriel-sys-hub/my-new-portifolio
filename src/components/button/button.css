@@ -12,3 +12,11 @@
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
+
+.button-glow:hover {
+    border: 1px solid var(--blue-secondary) ;
+    padding: 10px;
+    background-color: var(--blue-tertiary);
+    border-radius: 5px;
+    cursor: pointer;
+}
