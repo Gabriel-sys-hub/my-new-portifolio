@@ -1,0 +1,75 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.email {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 1px;
+  transition: linear 0.3s;
+  opacity: 0.5;
+}
+
+.email:hover {
+  color: var(--blue-secondary);
+  writing-mode: vertical-rl;
+  position: relative;
+  text-orientation: mixed;
+  opacity: 1;
+}
+.trace {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  opacity: 0.5;
+}
+.trace:after {
+  border-left: 1px solid white;
+  content: "";
+  display: inline-block;
+  height: 100px;
+  left: 34px;
+  width: 1px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.fotter-icons {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.github {
+    opacity: 0.5;
+  height: 30px;
+  width: 30px;
+}
+
+.github:hover {
+    opacity: 1;
+  color: var(--blue-secondary);
+  cursor: pointer;
+}
+
+.linkedin {
+    opacity: 0.5;
+  height: 30px;
+  width: 30px;
+}
+
+.linkedin:hover {
+    opacity: 1;
+  cursor: pointer;
+  color: var(--blue-secondary);
+}
