@@ -1,7 +1,6 @@
 .header_div {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: right;
     height: 50px;
     width: 100%;
 }
@@ -14,37 +13,27 @@
     margin: 20px;
 }
 
-.octagon {
-    width: 60px;
-    height: 35px;
-    position: relative;
+.active{
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    transition: 0.3s linear;
     display: flex;
-    justify-content: center;
+    justify-content:stretch;
     align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+   /*  z-index: 40; */
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
 }
+.hidden{
+    height: 4rem;
+    width: 100%;
+    z-index: 40;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+    position: fixed;
+    top: -80px;
+    transition: 0.3s linear;
 
-.octagon:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;    
-    border: 1px solid var(--blue-secondary) ;
-    border-bottom: 9px solid var(--blue-primary);
-    border-left: 9px solid  var(--blue-primary);
-    border-right: 9px solid  var(--blue-primary);
-    width: 42px;
-    height: 0;
-}
-
-.octagon:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;    
-    border: 1px solid var(--blue-secondary) ;
-    border-top: 9px solid var(--blue-primary) ;
-    border-left: 9px solid var(--blue-primary);
-    border-right: 9px solid  var(--blue-primary);
-    width: 42px;
-    height: 0;
 }
