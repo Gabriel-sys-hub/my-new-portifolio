@@ -1,0 +1,50 @@
+.header_div {
+    display: flex;
+    justify-content: space-between;
+
+    height: 50px;
+    width: 100%;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 20px;
+}
+
+.octagon {
+    width: 60px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.octagon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;    
+    border: 1px solid var(--blue-secondary) ;
+    border-bottom: 9px solid var(--blue-primary);
+    border-left: 9px solid  var(--blue-primary);
+    border-right: 9px solid  var(--blue-primary);
+    width: 42px;
+    height: 0;
+}
+
+.octagon:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    border: 1px solid var(--blue-secondary) ;
+    border-top: 9px solid var(--blue-primary) ;
+    border-left: 9px solid var(--blue-primary);
+    border-right: 9px solid  var(--blue-primary);
+    width: 42px;
+    height: 0;
+}
