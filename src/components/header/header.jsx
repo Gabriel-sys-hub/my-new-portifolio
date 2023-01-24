@@ -33,10 +33,10 @@ export default function header() {
 
     <div className='header_div'>
       <div className='header_content'>
-      <h5>Sobre</h5>
-      <h5>Experiencia</h5>
-      <h5>Trabalho</h5>
-      <h5>Contato</h5>
+      <h5 className='header-h5'>Sobre</h5>
+      <h5 className='header-h5'>Experiencia</h5>
+      <h5 className='header-h5'>Trabalho</h5>
+      <h5 className='header-h5'>Contato</h5>
       <Button name="Resume"></Button>
       </div>
     </div>
