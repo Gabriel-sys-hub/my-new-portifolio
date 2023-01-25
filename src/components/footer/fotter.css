@@ -8,7 +8,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 0px;
+
 }
 
 .email {
@@ -17,6 +17,7 @@
   letter-spacing: 1px;
   transition: linear 0.3s;
   opacity: 0.5;
+  padding-right: 15px;
 }
 
 .email:hover {
@@ -48,6 +49,7 @@
   height: 200px;
   align-items: center;
   justify-content: space-between;
+  padding-left: 15px;
 }
 
 .github {

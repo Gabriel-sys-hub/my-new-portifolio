@@ -29,17 +29,19 @@ export default function header() {
   }, [lastScrollY]);
 
   return (
-    <div className={`active ${show && 'hidden'}`}>
-
-    <div className='header_div'>
-      <div className='header_content'>
-      <h5 className='header-h5'>Sobre</h5>
-      <h5 className='header-h5'>Experiencia</h5>
-      <h5 className='header-h5'>Trabalho</h5>
-      <h5 className='header-h5'>Contato</h5>
-      <Button name="Resume"></Button>
+    <div className={`active ${show && "hidden"}`}>
+      <div className="header_div">
+        <div className="header-logo">
+          <h2>G</h2>
+        </div>
+        <div className="header_content">
+          <h5 className="header-h5">Sobre</h5>
+          <h5 className="header-h5">Experiencia</h5>
+          <h5 className="header-h5">Trabalho</h5>
+          <h5 className="header-h5">Contato</h5>
+          <Button name="Resume"></Button>
+        </div>
       </div>
     </div>
-    </div>
-  )
+  );
 }
