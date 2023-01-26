@@ -11,21 +11,42 @@
     display: flex;
     position: absolute;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     text-align: right;
 }
 
 .user-image img{
-    
-    height: 200px;
-    width: 200px;
+    z-index: 2;
+    position: relative;
+    height: 300px;
+    width: 300px;
 }
 
 
 .user-image::before{
     content: "";
-    border: 100px solid red;
-    position: relative;
+    border: 150px solid var(--blue-secondary);
+    opacity: 0.2;
+    position: absolute;
     z-index: 1;
-    right: -120px;
+    left: 20px;
+    bottom: 20px;
 }
+
+.user-bio {
+    opacity: 0.5;
+}
+
+.user-bio-github {
+   align-self: flex-end;
+   opacity: 0.5;
+   transition: 0.3s linear;
+}
+
+.user-bio-github:hover {
+    align-self: flex-end;
+    cursor: pointer;
+    color: var(--blue-secondary);
+    opacity: 1;
+    transition: 0.3s linear;
+ }

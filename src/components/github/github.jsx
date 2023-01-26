@@ -13,7 +13,6 @@ export default function Github() {
 
   function getGitHubUserData() {
     axios.get("https://api.github.com/users/Gabriel-sys-hub").then((result) => {
-      console.log(result.data, userGit.avatar);
       setUserGit(result.data);
     });
   }
@@ -33,7 +32,10 @@ export default function Github() {
         </div>
         <div>
           <h2>{userGit.name}</h2>
-          <h2>{userGit.login}</h2>
+          <h4 className="user-bio">{userGit.bio}</h4>
+          <h4 className="user-bio">{userGit.location}</h4>
+
+          <h5 className="user-bio-github">{userGit.html_url}</h5>
         </div>
       </div>
     </div>
