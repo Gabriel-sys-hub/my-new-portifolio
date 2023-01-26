@@ -4,6 +4,7 @@
   bottom: 0;
   width: 100%;
   background-color: transparent;
+  pointer-events: none;
   color: white;
   display: flex;
   align-items: flex-end;
