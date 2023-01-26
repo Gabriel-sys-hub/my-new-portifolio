@@ -1,0 +1,31 @@
+.github-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.user-card {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 50%;
+    text-align: right;
+}
+
+.user-image img{
+    
+    height: 200px;
+    width: 200px;
+}
+
+
+.user-image::before{
+    content: "";
+    border: 100px solid red;
+    position: relative;
+    z-index: 1;
+    right: -120px;
+}
