@@ -41,12 +41,6 @@ export default function Githubprojects() {
       <div className="githubprojects">
         <div className="githubprojects-box">
           {userGitRepositories.slice(page, page + 6).map((eachItem) => {
-            let dataBrLang = eachItem.created_at
-              .split("T")[0]
-              .split("-")
-              .reverse()
-              .join("/");
-
             return (
               <div key={eachItem.id} className="githubproject-card">
                 <div>
