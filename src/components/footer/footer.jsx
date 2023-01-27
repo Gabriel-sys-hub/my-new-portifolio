@@ -1,12 +1,12 @@
 import React from "react";
 import "./fotter.css";
-import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
+/* import { FaGithubAlt, FaLinkedin } from "./react-icons/fa"; */
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="fotter-icons">
-        <a
+       {/*  <a
           href="https://github.com/Gabriel-sys-hub/"
           target="_blank"
           rel="noreferrer"
@@ -19,7 +19,7 @@ export default function Footer() {
           rel="noreferrer"
         >
           <FaLinkedin className="linkedin"></FaLinkedin>
-        </a>
+        </a> */}
 
         <h5 className="trace"></h5>
       </div>

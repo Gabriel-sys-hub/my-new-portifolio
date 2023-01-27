@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
-import axios from "axios";
-import { FaGithubAlt } from "react-icons/fa";
+/* import axios from "axios"; */
+/* import { FaGithubAlt } from "./react-icons/fa"; */
 import "./githubprojects.css";
 import Button from "../button/button";
 
@@ -13,8 +13,7 @@ export default function Githubprojects() {
   }, []);
 
   function getGitHubRepositoriesData() {
-    axios
-      .get("https://api.github.com/users/Gabriel-sys-hub/repos")
+    fetch("https://api.github.com/users/Gabriel-sys-hub/repos")
       .then((result) => {
         const resultOrderedByDate = result.data
           .sort((a, b) => b.created_at.localeCompare(a.created_at))

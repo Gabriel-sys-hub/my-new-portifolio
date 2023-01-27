@@ -1,8 +1,8 @@
 import { React, useEffect, useState } from "react";
-import { DiJsBadge, DiReact } from "react-icons/di";
-import { SiFlutter, SiDart, SiTypescript } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import axios from "axios";
+/* import { DiJsBadge, DiReact } from "./react-icons/di";
+import { SiFlutter, SiDart, SiTypescript } from "./react-icons/si";
+import { FaNode } from "./react-icons/fa"; */
+/* import axios from "axios"; */
 import "./github.css";
 
 export default function Github() {
@@ -13,7 +13,7 @@ export default function Github() {
   }, []);
 
   function getGitHubUserData() {
-    axios.get("https://api.github.com/users/Gabriel-sys-hub").then((result) => {
+    fetch("https://api.github.com/users/Gabriel-sys-hub").then((result) => {
       setUserGit(result.data);
     });
   }
