@@ -9,10 +9,15 @@
     opacity: 0.9;
 }
 
-.timeline-item h1 {
+.timeline-item-content h3 {
  margin-block-end: 0px;
  margin-block-start: 0px;
 }
+
+.timeline-item-content h5 {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+   }
 
 .timeline-item:nth-child(odd) .timeline-item-content {
     text-align: left;
@@ -28,9 +33,10 @@
 .timeline-item-content {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    background-color: #fff;
+    background-color: var(--white-font);
     display: flex;
     flex-direction: column;
+    height: 10%;
     align-items: flex-end;
     padding: 15px;
     position: relative;
@@ -41,7 +47,7 @@
 
 .timeline-item-content::after {
     content: ' ';
-    background-color: #fff;
+    background-color:  var(--white-font);
     box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     right: -7.5px;
