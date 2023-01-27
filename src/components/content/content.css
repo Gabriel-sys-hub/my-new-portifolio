@@ -1,0 +1,43 @@
+.introducing-content-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding-top: 350px
+}
+
+.introducing-content {
+    width: 60%;
+}
+
+.first-intro {
+    color: var(--blue-secondary);
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.name {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.second-intro {
+    font-family: sans-serif;
+    font-weight: 900;
+    line-height: 50px;
+    opacity: 0.5;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.thrird-intro-box {
+    opacity: 0.5;
+    line-height: 20px;
+    width: 59%;
+}

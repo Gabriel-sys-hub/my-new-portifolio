@@ -1,0 +1,79 @@
+.githubprojects {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.githubprojects-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 200px;
+}
+
+.githubproject-card {
+    background-color: var(--blue-tertiary);
+    border-radius: 5%;
+    color: var(--white-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 1em;
+    width: 30%;
+    height: 30%;
+    transition: linear 0.5s;
+}
+
+.githubproject-card:hover {
+    border-radius: 5% 25% 5% 5% ; 
+    color: var(--white-font);
+   box-shadow:  5px -5px 10px rgba(0, 0, 0, 0.254);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 1em;
+}
+
+.githubproject-card a {
+    color: var(--white-font);
+    transition: 0.3s linear;
+    padding: 0;
+    margin: 0;
+
+}
+
+.githubproject-card a:hover {
+    color: var(--blue-secondary);
+    padding: 0;
+    margin: 0;
+}
+
+.githuburl {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.githubproject-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.githubproject-title-h1 {
+    width: 60%;
+}
+
+.github-next-back {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}

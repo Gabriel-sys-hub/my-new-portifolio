@@ -1,0 +1,24 @@
+.timeline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.timeline-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0px;
+    background-color: var(--blue-primary);
+    width: 60%;
+}
+
+.timeline-box::after {
+    background-color: var(--blue-secondary);
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}

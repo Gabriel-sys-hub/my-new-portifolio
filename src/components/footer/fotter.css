@@ -1,0 +1,67 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.email {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 1px;
+  transition: linear 0.3s;
+  opacity: 0.5;
+  padding-right: 15px;
+  pointer-events: auto;
+}
+
+.email:hover {
+  color: var(--blue-secondary);
+  writing-mode: vertical-rl;
+  position: relative;
+  text-orientation: mixed;
+  opacity: 1;
+}
+.trace {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  opacity: 0.5;
+}
+.trace:after {
+  border-left: 1px solid white;
+  content: "";
+  display: inline-block;
+  height: 100px;
+  left: 34px;
+  width: 1px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.fotter-icons {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.fotter-icons a{
+  color: #fff;
+  opacity: 0.5;
+  pointer-events: auto;
+}
+
+.fotter-icons a:hover {
+    opacity: 1;
+  color: var(--blue-secondary);
+  cursor: pointer;
+}
