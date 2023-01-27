@@ -39,7 +39,10 @@ export default function header() {
           <h5 className="header-h5">Experiencia</h5>
           <h5 className="header-h5">Trabalho</h5>
           <h5 className="header-h5">Contato</h5>
-          <Button name="Resume"></Button>
+          <Button
+            name="Resume"
+            href="https://docs.google.com/document/d/1HbQrvxnx3p_PRmGaH-JVBSd3-fm-Ye6Yvcd0CEH8XuU/edit?usp=sharing"
+          ></Button>
         </div>
       </div>
     </div>
