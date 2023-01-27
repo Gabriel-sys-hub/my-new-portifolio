@@ -48,7 +48,7 @@ export default function Githubprojects() {
                 </div>
                 <div className="githuburl">
                   <a href={eachItem.html_url} target="_blank" rel="noreferrer">
-                    <FaGithubAlt></FaGithubAlt>
+                    {/*     <FaGithubAlt></FaGithubAlt> */}
                   </a>
                 </div>
               </div>

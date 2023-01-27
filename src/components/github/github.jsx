@@ -30,12 +30,12 @@ export default function Github() {
             <h5 className="user-bio-github">{userGit.html_url}</h5>
           </div>
           <div className="user-stacks">
-            <SiDart className="user-stacks-icons"></SiDart>
+            {/*  <SiDart className="user-stacks-icons"></SiDart>
             <FaNode className="user-stacks-icons"></FaNode>
             <DiJsBadge className="user-stacks-icons"></DiJsBadge>
             <DiReact className="user-stacks-icons"></DiReact>
             <SiFlutter className="user-stacks-icons"></SiFlutter>
-            <SiTypescript className="user-stacks-icons"></SiTypescript>
+            <SiTypescript className="user-stacks-icons"></SiTypescript> */}
           </div>
         </div>
       </div>
