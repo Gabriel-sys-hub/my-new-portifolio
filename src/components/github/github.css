@@ -50,3 +50,22 @@
     opacity: 1;
     transition: 0.3s linear;
  }
+
+ .user-bio-github-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+ }
+
+ .user-stacks {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 100%;
+ }
+
+ .user-stacks-icons {
+    height: 70px;
+    width: 70px;
+ }
