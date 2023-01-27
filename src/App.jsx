@@ -5,6 +5,7 @@ import Content from "./components/content/content";
 import Github from "./components/github/github";
 import Githubprojects from "./components/github/githubprojects";
 import "./App.css";
+import Timeline from "./components/timeline/timeline";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Content></Content>
       <Github></Github>
       <Githubprojects></Githubprojects>
+      <Timeline></Timeline>
       <Footer></Footer>
     </div>
   );
