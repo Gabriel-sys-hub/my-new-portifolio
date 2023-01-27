@@ -2,9 +2,9 @@
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Content from "./components/content/content";
-import "./App.css";
 import Github from "./components/github/github";
 import Githubprojects from "./components/github/githubprojects";
+import "./App.css";
 
 function App() {
   return (
