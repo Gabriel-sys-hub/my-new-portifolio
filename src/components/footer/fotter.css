@@ -54,28 +54,14 @@
   padding-left: 15px;
 }
 
-.github {
-    opacity: 0.5;
-  height: 30px;
-  width: 30px;
+.fotter-icons a{
+  color: #fff;
+  opacity: 0.5;
   pointer-events: auto;
 }
 
-.github:hover {
+.fotter-icons a:hover {
     opacity: 1;
   color: var(--blue-secondary);
   cursor: pointer;
-}
-
-.linkedin {
-    opacity: 0.5;
-  height: 30px;
-  width: 30px;
-  pointer-events: auto;
-}
-
-.linkedin:hover {
-    opacity: 1;
-  cursor: pointer;
-  color: var(--blue-secondary);
 }

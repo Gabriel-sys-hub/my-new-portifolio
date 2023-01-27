@@ -6,9 +6,20 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="fotter-icons">
-        <FaGithubAlt className="github"></FaGithubAlt>
-
-        <FaLinkedin className="linkedin"></FaLinkedin>
+        <a
+          href="https://github.com/Gabriel-sys-hub/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithubAlt className="github" role="button"></FaGithubAlt>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gabrielpfernandes/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin className="linkedin"></FaLinkedin>
+        </a>
 
         <h5 className="trace"></h5>
       </div>
